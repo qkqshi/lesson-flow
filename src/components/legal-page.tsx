@@ -25,7 +25,7 @@ export function LegalPage({
           Расписание
         </Link>
         <div className="legal-mark" aria-hidden="true">
-          У
+          LF
         </div>
       </header>
 

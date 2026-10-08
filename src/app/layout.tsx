@@ -4,7 +4,7 @@ import Script from "next/script";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
-  title: "Уроки — расписание преподавателя",
+  title: "Lesson Flow — расписание преподавателя",
   description: "Личное расписание уроков из Google Calendar",
 };
 

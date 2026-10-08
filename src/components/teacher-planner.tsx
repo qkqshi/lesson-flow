@@ -606,10 +606,10 @@ export function TeacherPlanner() {
 
       <header className="topbar">
         <div className="brand-mark" aria-hidden="true">
-          {auth?.user.firstName?.slice(0, 1).toLocaleUpperCase("ru-RU") ?? "У"}
+          {auth?.user.firstName?.slice(0, 1).toLocaleUpperCase("ru-RU") ?? "L"}
         </div>
         <div className="topbar__copy">
-          <p className="eyebrow">Личный план</p>
+          <p className="eyebrow">Lesson Flow</p>
           <strong>{auth ? auth.user.firstName : "Преподаватель"}</strong>
         </div>
         <button
@@ -898,7 +898,7 @@ export function TeacherPlanner() {
       )}
 
       <footer className="legal-footer">
-        <span>Teacher Planner · Google Calendar и Telegram</span>
+        <span>Lesson Flow · Google Calendar и Telegram</span>
         <nav aria-label="Юридическая информация">
           <a href="/privacy">Конфиденциальность</a>
           <a href="/terms">Условия</a>

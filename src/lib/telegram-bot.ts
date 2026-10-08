@@ -143,7 +143,7 @@ export function appButton():
 export async function sendStartMessage(chatId: string): Promise<void> {
   await sendTelegramMessage(
     chatId,
-    "<b>Расписание уроков</b>\n\nЗдесь можно посмотреть день, добавить занятие или изменить планы.",
+    "<b>Lesson Flow</b>\n\nЗдесь можно посмотреть день, добавить занятие или изменить планы.",
     { replyMarkup: appButton() },
   );
 }

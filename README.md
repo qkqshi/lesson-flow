@@ -1,4 +1,4 @@
-# Уроки — Telegram Mini App преподавателя
+# Lesson Flow — Telegram Mini App преподавателя
 
 Личное расписание, связанное с Google Calendar. Приложение показывает события за выбранный день, позволяет создавать, менять и удалять уроки, а бот ежедневно в 08:00 по Самаре присылает сводку.
 
@@ -163,13 +163,14 @@ git add .
 git diff --cached --check
 git diff --cached --stat
 git diff --cached
-git commit -m "Prepare teacher mini app for deployment"
-git remote add origin https://github.com/YOUR_ACCOUNT/teacher-mini-app.git
+git commit -m "Prepare Lesson Flow for deployment"
+git remote add origin https://github.com/qkqshi/lesson-flow.git
 git push -u origin main
 ```
 
-Замените `YOUR_ACCOUNT` и имя репозитория на свои. Эти команды предполагают,
-что локальный Git-репозиторий уже инициализирован с веткой `main`.
+Для другого репозитория замените URL на свой. Эти команды предполагают,
+что локальный Git-репозиторий уже инициализирован с веткой `main`, а `origin`
+ещё не настроен.
 
 ## Деплой на Vercel из GitHub
 

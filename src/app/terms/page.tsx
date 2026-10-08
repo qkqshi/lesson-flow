@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 
 export const metadata: Metadata = {
-  title: "Условия использования — Teacher Planner",
-  description: "Условия использования личного приложения Teacher Planner.",
+  title: "Условия использования — Lesson Flow",
+  description: "Условия использования личного приложения Lesson Flow.",
 };
 
 export default function TermsPage() {
@@ -12,7 +12,7 @@ export default function TermsPage() {
     <LegalPage
       eyebrow="Условия использования"
       title="Простой договор с самим собой"
-      summary="Teacher Planner создан как личный инструмент для управления уроками, а не как публичный сервис для других пользователей."
+      summary="Lesson Flow создан как личный инструмент для управления уроками, а не как публичный сервис для других пользователей."
     >
       <section>
         <h2>Назначение</h2>

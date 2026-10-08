@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 
 export const metadata: Metadata = {
-  title: "Политика конфиденциальности — Teacher Planner",
+  title: "Политика конфиденциальности — Lesson Flow",
   description:
-    "Как Teacher Planner использует и защищает данные Telegram и Google Calendar.",
+    "Как Lesson Flow использует и защищает данные Telegram и Google Calendar.",
 };
 
 export default function PrivacyPage() {
@@ -13,7 +13,7 @@ export default function PrivacyPage() {
     <LegalPage
       eyebrow="Конфиденциальность"
       title="Ваше расписание остаётся вашим"
-      summary="Teacher Planner — закрытый инструмент для разрешённых администраторов. Данные используются только для расписания, статистики и ежедневных напоминаний."
+      summary="Lesson Flow — закрытый инструмент для разрешённых администраторов. Данные используются только для расписания, статистики и ежедневных напоминаний."
     >
       <section>
         <h2>Какие данные обрабатываются</h2>
