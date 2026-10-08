@@ -1,0 +1,47 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+/next-env.d.ts
+
+# production
+/build
+
+# local environment
+.env*
+!.env.example
+
+# local credentials and data
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.bak
+credentials.json
+service-account.json
+secrets.json
+
+# logs and tooling
+*.log
+/coverage
+*.tsbuildinfo
+/artifacts
+/.release-review/
+
+# local agent tooling
+/.agents/skills/
+/.codex/
+/skills-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+/.vercel/

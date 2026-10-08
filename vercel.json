@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm ci",
+  "crons": [
+    {
+      "path": "/api/cron/daily-reminder",
+      "schedule": "0 4 * * *"
+    }
+  ]
+}
